@@ -30,19 +30,19 @@
 
 | 구분 | 프로젝트/소속 | 핵심 역할 및 성과 | 기간 |
 | :--- | :--- | :--- | :--- |
-| **Internship** | **Secui UI/UX 그룹** | - 1300개 이상의 REST API TestCase 구축 및 검증<br>- 랜덤 데이터 기반 시나리오 테스트로 엣지 케이스 발굴<br>- Code Convention 준수를 통한 유지보수성 향상 | 25.11 - 26.02 |
-| **Project** | **Lyric Type** | - Flask 기반 타이핑 게임 백엔드 API 설계 및 배포<br>- Redis 비동기 처리를 통한 응답 속도 최적화 (평균 200ms)<br>- Locust 활용 부하 테스트 및 모니터링 페이지 구축 | 25.12 - 진행 중 |
-| **BootCamp** | **크래프톤 정글 8기** | - C/Assembly 기반 초소형 OS 구현 프로젝트<br>- CS 코어 지식(OS, 네트워크, 자료구조) 및 알고리즘 심화 학습<br>- 팀 프로젝트 팀장 및 데이터 전처리/Whisper 음성 변환 구현 | 25.03 - 25.08 |
+| **Internship** | **Secui UI/UX 그룹** | - 장비 NGF 안정성 확보를 위한 1,300개 이상의 REST API TestCase 구축 <br>- 랜덤 데이터 기반 시나리오 테스트 설계를 통한 엣지 케이스 발굴 및 검증 <br>- 낮은 확률의 런타임 에러 추적 및 해결을 통한 시스템 신뢰도 향상 | 25.11 - 26.02 |
+| **Project** | **Lyric Type** | - Flask 기반 실시간 타이핑 게임 백엔드 API 설계 및 DB 정규화 <br>- Redis 비동기 처리를 도입하여 응답 속도 최적화 (평균 200ms 달성) <br>- Locust 활용 부하 테스트 수행 및 API 성능 모니터링 체계 구축 | 25.12 - 진행 중 |
+| **BootCamp** | **크래프톤 정글 8기** | - C/Assembly 언어를 활용한 초소형 OS 구현 프로젝트 수행 <br>- 자료구조, OS, 네트워크 등 CS 코어 지식 및 알고리즘 심화 학습 <br>- 팀 프로젝트 팀장 역임 및 OpenAI Whisper 기반 음성 데이터 전처리 구현 | 25.03 - 25.08 |
 
 ---
 
 ## 📝 Technical Deep Dive (Insights)
 
-단순한 기능 구현을 넘어, 기술의 원리를 파고들고 정교한 설계를 지향합니다.
+단순한 기능 구현을 넘어 기술의 본질을 이해하고 데이터 기반의 의사결정을 지향합니다.
 
-* **[랜덤의 본질과 올바른 사용법]**: 난수 생성 알고리즘의 편향성(Modulo Bias) 해결 및 테스트 재현성을 위한 Seed 제어 전략 고찰
-* **[정규화된 DB 설계]**: 가중치 기반 실력 점수 산출 및 API 성능 지표 관리를 위한 스키마 설계 (ERD)
-* **[TDD & Test Coverage]**: 1,300개의 TC를 통해 시스템의 안정성을 확보하고 레거시 코드 생산을 방지하는 개발 프로세스 확립
+* **[랜덤의 본질과 올바른 사용법]**: 난수 생성 알고리즘의 편향성(Modulo Bias)을 분석하고, 테스트 재현성을 위한 Seed 제어 및 `_randbelow` 로직 고찰
+* **[정규화된 DB 설계 및 성능 모니터링]**: 가중치 기반 실력 점수 산출 로직 구현 및 p95 Latency 추적을 위한 ERD 설계
+* **[TDD & API 검증 전략]**: 1,300개의 TC를 통해 누락 없는 API 검증 체계를 구축하고 레거시 코드 생성을 방지하는 프로세스 정립
 
 ---
 
@@ -53,5 +53,5 @@
   </a>
   <br><br>
   <img src="https://github-readme-stats.vercel.app/api?username=JOJoungMin&custom_title=JoungMin's%20Github%20Stats&bg_color=180,000000,&title_color=000000&text_color=000000" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JOJoungMin&layout=compact&bg_color=180,000000,&title_color=000000&text_color=000000" /> 
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JOJoungMin&layout=compact&bg_color=180,000000,&title_color=000000&text_color=000000&hide=html,css" /> 
 </div>
