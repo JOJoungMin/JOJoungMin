@@ -5,7 +5,7 @@
 <div align="center"> 
   <br/>
   <div style="font-weight: 700; font-size: 22px; text-align: center; color: #282d33;"> 
-    "검증되지 않은 코드는 무용지물"
+    <b>검증되지 않은 코드는 무용지물</b>
   </div> 
   <div style="font-weight: 500; font-size: 16px; text-align: center; color: #586069; margin-top: 10px;"> 
     정교한 설계를 통해 코드의 가치를 증명하는 개발자 <b>조정민</b>입니다.
